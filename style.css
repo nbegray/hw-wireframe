@@ -1,3 +1,6 @@
+* {
+  text-align: center;
+}
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 18px;
@@ -29,9 +32,9 @@ nav {
 
 section {
   
-  padding: 50px;
+  padding: 20px;
   margin-bottom: 20px;
-  margin: 50 px;
+  margin: 20 px;
   width: 495px;
   color: #333;
   background-color: #ebebeb;
@@ -42,10 +45,11 @@ section {
 article {
   color: #ebebeb;
   background-color: #777;
-  padding: 40px;
+  padding: 20px;
     margin-bottom: 20px;
     margin: 20px;
-    float: left;
+    width: 80%;
+    
 
    
   }
@@ -54,7 +58,7 @@ aside {
   background-color: #ebebeb;
   padding: 20px;
   margin-bottom: 20px;
-  margin: 20px;
+  margin: 10px;
   width: 460px;
   float: right;
  
@@ -65,9 +69,11 @@ aside {
 color: #777;
 background-color: #ebebeb;
 padding: 20px;
-  margin-bottom: 20px;
-  margin: 20px;
-  
+margin-bottom: 20px;
+margin: 20px;
+width: 350px;
+height: 100 px;
+box-sizing:  border-box;
   
 }
 
@@ -75,6 +81,11 @@ padding: 20px;
   color: #777;
 background-color: #ebebeb;
 padding: 20px;
+margin-bottom: 20px;
+margin: 20px;
+width: 350px;
+height: 100 px;
+box-sizing: border-box;
   
 
 }
