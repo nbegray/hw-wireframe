@@ -14,10 +14,10 @@ line-height: 34px;
 }
 
 header {
-  padding: 20px;
-  margin-bottom: 20px;
-  line-height: 30px;
-  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  
   color: #333;
   background-color: #ebebeb;
 }
@@ -25,10 +25,10 @@ header {
 
 nav {
   background-color: #ebebeb;
-  padding: 20px;
-  margin-bottom: 20px;
-  width: 100%;
-  line-height: 30px;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  
   color: #333;
 
 }
@@ -68,7 +68,7 @@ aside {
 }
 
 
-.htag
+h1
 {
 color: #777;
 background-color: #ebebeb;
@@ -76,14 +76,16 @@ padding: 10px;
 margin: 10px;
 width:90%;
 
+
 }
 
-.paragraph {
+p {
   color: #777;
 background-color: #ebebeb;
 padding: 10px;
 margin: 10px;
 width: 90%;  
+
 
 }
 
@@ -94,8 +96,7 @@ footer {
   
   padding: 20px;
   margin-top: 20px;
-  width: 100%;
-  line-height: 50px;
+  display:block;
   color: #333;
   background-color: #ebebeb;
 }
